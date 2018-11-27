@@ -13,12 +13,13 @@ A source of pride in the development of this project was being able to explore b
     </div>
     
   </details>
-      
-      
-* AutoZone Lighting! Java [here](https://husseins13.github.io/lightning2/)
-* AutoZone Lightning JS [here](https://husseins13.github.io/lightning2/jsacs_lightning/)
-
-```Java
+      <details>
+  <summary> AutoZone Lightin in Java </summary>
+  https://husseins13.github.io/lightning2/
+  
+  A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
+  
+  ```Java
 void draw() {
     background(255);
     while (endX < 300) {
@@ -38,6 +39,10 @@ void draw() {
 }
 
 ```
+  </details>
+* AutoZone Lightning JS [here](https://husseins13.github.io/lightning2/jsacs_lightning/)
+
+
 * Dice Roll [here](https://husseins13.github.io/dice3/)
 * Computer Science at MIT [here](https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
 * Chemotaxis [here](https://husseins13.github.io/chemotaxis4/)
