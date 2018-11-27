@@ -3,10 +3,8 @@
 * MyWebPage [here](https://husseins13.github.io/testWeb/dogPage/) 
 * AutoZone Lighting! Java [here](https://husseins13.github.io/lightning2/)
 <details>
-  <summary>
-    My Webpage
-      
-      </summary>
+  <summary> My Webpage </summary>
+      * MyWebPage [here](https://husseins13.github.io/testWeb/dogPage/)
       </details>
 * AutoZone Lightning JS [here](https://husseins13.github.io/lightning2/jsacs_lightning/)
 
