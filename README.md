@@ -1,11 +1,18 @@
 # csPortfolio
 
-* MyWebPage [here](https://husseins13.github.io/testWeb/dogPage/) 
-* AutoZone Lighting! Java [here](https://husseins13.github.io/lightning2/)
 <details>
   <summary> My Webpage </summary>
-      * MyWebPage [here](https://husseins13.github.io/testWeb/dogPage/)
-      </details>
+      MyWebPage [here](https://husseins13.github.io/testWeb/dogPage/)
+      A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult. Here is a snippet of the code:
+  ```Java
+    <div class="w3-container">
+        <img src="group.jpg" id="cent" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:50%">
+        <h3> To kick off the day, students met with Governor Dayton to share their vision for the future of Minnesota. </h3>
+        <img src="dayton.jpg" id="cent" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:50%">
+    </div>
+    ```
+      </details>    
+* AutoZone Lighting! Java [here](https://husseins13.github.io/lightning2/)
 * AutoZone Lightning JS [here](https://husseins13.github.io/lightning2/jsacs_lightning/)
 
 ```Java
