@@ -79,7 +79,11 @@ A source of pride in the development of this code, was being able to explore Jav
     
    </details>
     
-* Computer Science at MIT [here](https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
+<details>
+  <summary>Computer Science at MIT </summary>
+  https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
+  </details>
+  
 * Chemotaxis [here](https://husseins13.github.io/chemotaxis4/)
 
 ```Java
