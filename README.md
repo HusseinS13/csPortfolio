@@ -14,7 +14,7 @@ A source of pride in the development of this project was being able to explore b
     
   </details>
       <details>
-  <summary> AutoZone Lighting in Java </summary>
+  <summary>AutoZone Lighting in Java </summary>
   https://husseins13.github.io/lightning2/
   
 A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
@@ -49,7 +49,7 @@ A source of pride in the development of this code, was being able to explore Jav
 
 
 <details>
-  <summary> Dice Roll </summary>
+  <summary>Dice Roll </summary>
     https://husseins13.github.io/dice3/
 
     A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a snippet of that code:
