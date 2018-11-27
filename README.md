@@ -10,7 +10,8 @@
         <h3> To kick off the day, students met with Governor Dayton to share their vision for the future of Minnesota. </h3>
         <img src="dayton.jpg" id="cent" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:50%">
     </div>
-      </details>    
+    
+  </details>
       
       
 * AutoZone Lighting! Java [here](https://husseins13.github.io/lightning2/)
