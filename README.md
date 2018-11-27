@@ -4,7 +4,7 @@
   <summary> My Webpage </summary>
     https://husseins13.github.io/testWeb/dogPage/.
       
-      A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult. Here is a snippet of the code:
+A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult. Here is a snippet of the code:
 
     <div class="w3-container">
         <img src="group.jpg" id="cent" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:50%">
