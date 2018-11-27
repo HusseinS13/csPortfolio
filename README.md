@@ -14,10 +14,10 @@ A source of pride in the development of this project was being able to explore b
     
   </details>
       <details>
-  <summary> AutoZone Lightin in Java </summary>
+  <summary> AutoZone Lighting in Java </summary>
   https://husseins13.github.io/lightning2/
   
-  A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
+A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
   
   ```Java
 void draw() {
@@ -40,7 +40,12 @@ void draw() {
 
 ```
   </details>
-* AutoZone Lightning JS [here](https://husseins13.github.io/lightning2/jsacs_lightning/)
+<details>
+  <summary>AutoZone Lightning in JavaScript</summary>
+  https://husseins13.github.io/lightning2/jsacs_lightning/
+  
+A source of pride in the development of this code, was being able to explore JavaScript for the first time. I learned about some of the similarities and differences between Java and JavaScript. I was able to rewrite parts of my code so that it would have the same functionality as the Java version. Through exploration, I learned how to create a random background color that is constantly changing, butI struggled to make the colors change with the mousePressed() method.
+  </details>
 
 
 * Dice Roll [here](https://husseins13.github.io/dice3/)
