@@ -48,7 +48,36 @@ A source of pride in the development of this code, was being able to explore Jav
   </details>
 
 
-* Dice Roll [here](https://husseins13.github.io/dice3/)
+<details>
+  <summary> Dice Roll </summary>
+    https://husseins13.github.io/dice3/
+    A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a snippet of that code:
+  
+  ```Java
+   void roll(){ // ur code here
+  m = (int)(Math.random()*6)+1;
+  }
+  void show()  {
+     fill(#BDBDBD);
+    rect(x, y, 50, 50);
+    if (m == 1) {
+      noStroke();
+      fill(#FF9700 );
+      ellipse( x+25, y+25, 6, 6);
+    }
+    if ( m == 2) { 
+      fill (#E8CA53); 
+      noStroke();
+      ellipse( x+16, y+25, 6, 6); 
+      ellipse( x+32, y+25, 6, 6);
+  }
+  ...
+  }
+  
+  ```
+    
+   </details>
+    
 * Computer Science at MIT [here](https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
 * Chemotaxis [here](https://husseins13.github.io/chemotaxis4/)
 
