@@ -1,7 +1,7 @@
 # csPortfolio
 
 <details>
-  <summary> My Webpage[here]( https://husseins13.github.io/testWeb/dogPage/).</summary>
+  <summary>Webpage</summary>
     https://husseins13.github.io/testWeb/dogPage/.
       
 A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult, but I did learn how to make an image opaque when the mouse hovers over it. Here is a snippet of that code:
