@@ -51,7 +51,7 @@ A source of pride in the development of this code, was being able to explore Jav
 <details>
   <summary>Dice Roll </summary>
     https://husseins13.github.io/dice3/
-
+  
     A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a snippet of that code:
   
   ```Java
@@ -84,7 +84,11 @@ A source of pride in the development of this code, was being able to explore Jav
   https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
   </details>
   
-* Chemotaxis [here](https://husseins13.github.io/chemotaxis4/)
+<details> 
+  <summary>Chemotaxis</summary>
+  https://husseins13.github.io/chemotaxis4/
+  
+  A source of pride in the development of this code was being able to successfully create bacteria objects that followed the mouse when clicked. This was a struggle at first, but through some collaboration I was able to figure out the process. I ended up creating a boolean variable called followMouse. If this variable was true and the x position of the bacteria was greater than the x position of the mouse, then the bacteria would move in a random path towards the mouse. This is thought process that is displayed throughout my code below:
 
 ```Java
    void follow()
@@ -109,7 +113,12 @@ A source of pride in the development of this code, was being able to explore Jav
 
    }
    ```
-*Starfield [here](https://husseins13.github.io/starfield5/)
+   </details>
+<details>
+  <summary>Starfield</summary>
+  https://husseins13.github.io/starfield5/
+ 
+ A source of pride in the development of this code was being able to successfully implement a piece a code that I have found on the Processing API. Through collaboartion with both peers and some instruction from my teacher, I was able to succesfully have the star object move across the screen. Here is a snippet of that code:
 
 ```Java
   void star(float x, float y, float radius1, float radius2, int npoints)
@@ -129,3 +138,4 @@ A source of pride in the development of this code, was being able to explore Jav
   }
 }
 ```
+</details>
