@@ -11,7 +11,7 @@ class BST{
  {
    root=new TreeNode("Do you like to go close (left) or far (right) for adventure?");
    
-   root.setLeft(new TreeNode("Are you introverted(left) or extraverted (right)?"));
+   root.setLeft(new TreeNode("Are you introverted (left) or extraverted (right)?"));
    root.setRight(new TreeNode("Are you afraid of heights (left) or no (right)"));
    
    root.getLeft().setLeft(new TreeNode("Do you like to stay busy (left) or chill (right)?"));

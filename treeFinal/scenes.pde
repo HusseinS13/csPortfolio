@@ -82,7 +82,7 @@ public class Scenes implements Comparable{
   {
     img8=loadImage("boyfriend.png");
     img8.resize(250,200);
-    image(img8, 245, 50); 
+    image(img8, 260, 50); 
     textAlign(LEFT);
     text("Phineas and Ferb are sitting on their living room couch watching a documentary on Neanderthals called Neanderthal: Pride of the Paleolithic on their television. The man narrating the program mentions that to this day, there may still be Neanderthals frozen in icebergs, which inspires the boys to find a caveman in the Danville Glacier. ",x,280);
     x=x-3;

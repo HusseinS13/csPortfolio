@@ -2,8 +2,10 @@ import processing.sound.*;
 SoundFile file;
 BST tree=new BST();
 TreeNode current;
-String s="How should you spend your summer?";
+String s="Do you like to go close (left) or far (right) for adventure?";
 Scenes sc;
+int x;
+PImage img2;
 boolean introSlide=false;
 boolean one=false;
 boolean two=false;
@@ -15,6 +17,7 @@ boolean seven=false;
 boolean eight=false;
 public void settings() {
   size(500, 300);
+  x=500;
 }
 void setup() {
   current=tree.buildTree();
@@ -26,7 +29,7 @@ void setup() {
 void draw() {
   background(255);
   fill(0);
-  textSize(18);
+  textSize(12);
   text(s, 10, height/2);
   changeScenes();
 }
@@ -67,42 +70,42 @@ void changeScenes()
 
 void keyPressed() {
   if (keyCode==LEFT) {
-    s=(String)current.getValue();
-    println(s);
+    s=(String)current.getLeft().getValue();
+ 
     if (s.equals("Build an Animal Translator"))
     {
       one=true;
-      introSlide=false;
-    } else if (s.equals("Create a Beach in your Backyard"))
-    {
-      two=true;
       introSlide=false;
     } else if (s.equals("Start an Aglet Awareness Campaign"))
     {
       three=true;
       introSlide=false;
-    } else if (s.equals("Build a Mix-and-Match Machine"))
+    } else if (s.equals("Paint the Unpainted Desert"))
     {
-      four=true;
+      five=true;
+      introSlide=false;
+    } else if (s.equals("Build a Teleporter"))
+    {
+      seven=true;
       introSlide=false;
     } else {
       current=current.getLeft();
     }
   } else if (keyCode==RIGHT)
   {
-    s=(String)current.getValue();
+    s=(String)current.getRight().getValue();
     println(s);
-    if (s.equals("Paint the Unpainted Desert"))
+    if (s.equals("Create a Beach in your Backyard"))
     {
-      five=true;
+      two=true;
+      introSlide=false;
+    } else if (s.equals("Build a Mix-and-Match Machine"))
+    {
+      four=true;
       introSlide=false;
     } else if (s.equals("Build a Sports Stadium"))
     {
       six=true;
-      introSlide=false;
-    } else if (s.equals("Build a Teleporter"))
-    {
-      seven=true;
       introSlide=false;
     } else if (s.equals("Find a Boyfriend from 27,000 BCE"))
     {
