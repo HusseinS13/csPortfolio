@@ -1,10 +1,10 @@
 # Shaza Hussein's 'Advanced Computer Science' Portfolio
-
 <details>
   <summary>Final Project</summary>
+  
   In this project, I employed the Binary Search Tree data structures in order to create a fun game to help fellow students decide what they should invent this summer based off of one of my favorite childhood shoes, Phineas and Ferb. Throughout this project, I consolidated my ability to build and implements trees. The tree is traversed based on user input to questions until a leaf of 'invention' is reached. I challenge I encountered when creating this project was figuring out how to convert the tree into a usable interface. To solve this problem, I first problem solved on my own and then consulted with classmates on how to effeciently convert the tree into an interface. This interaction is what sparked the idea of implementing scenes based on booleans. The code for this is as follows:
   
-     ```Java
+  ```Java
  if (s.equals("Build an Animal Translator"))
     {
       one=true;
