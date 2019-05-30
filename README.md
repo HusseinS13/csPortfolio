@@ -27,6 +27,8 @@
   }
 
 ```
+This is the code that uses a boolean to check the value of the node. If the boolean is true, then the interface implements the code for the respective screen.
+
 </details>
 <details>
   <summary>Webpage</summary>
