@@ -2,7 +2,6 @@
 
 <details>
   <summary>Webpage</summary>
-    https://husseins13.github.io/testWeb/dogPage/.
       
 A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult, but I did learn how to make an image opaque when the mouse hovers over it. Here is a snippet of that code:
 
@@ -15,7 +14,6 @@ A source of pride in the development of this project was being able to explore b
   </details>
       <details>
   <summary>AutoZone Lighting in Java </summary>
-  https://husseins13.github.io/lightning2/
   
 A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
   
@@ -42,7 +40,6 @@ void draw() {
   </details>
 <details>
   <summary>AutoZone Lightning in JavaScript</summary>
-  https://husseins13.github.io/lightning2/jsacs_lightning/
   
 A source of pride in the development of this code, was being able to explore JavaScript for the first time. I learned about some of the similarities and differences between Java and JavaScript. I was able to rewrite parts of my code so that it would have the same functionality as the Java version. Through exploration, I learned how to create a random background color that is constantly changing, butI struggled to make the colors change with the mousePressed() method.
   </details>
@@ -50,7 +47,6 @@ A source of pride in the development of this code, was being able to explore Jav
 
 <details>
   <summary>Dice Roll </summary>
-    https://husseins13.github.io/dice3/
   
     A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a snippet of that code:
   
@@ -86,7 +82,6 @@ A source of pride in the development of this code, was being able to explore Jav
   
 <details> 
   <summary>Chemotaxis</summary>
-  https://husseins13.github.io/chemotaxis4/
   
   A source of pride in the development of this code was being able to successfully create bacteria objects that followed the mouse when clicked. This was a struggle at first, but through some collaboration I was able to figure out the process. I ended up creating a boolean variable called followMouse. If this variable was true and the x position of the bacteria was greater than the x position of the mouse, then the bacteria would move in a random path towards the mouse. This is thought process that is displayed throughout my code below:
 
@@ -116,7 +111,6 @@ A source of pride in the development of this code, was being able to explore Jav
    </details>
 <details>
   <summary>Starfield</summary>
-  https://husseins13.github.io/starfield5/
  
  A source of pride in the development of this code was being able to successfully implement a piece a code that I have found on the Processing API. Through collaboartion with both peers and some instruction from my teacher, I was able to succesfully have the star object move across the screen. Here is a snippet of that code:
 
