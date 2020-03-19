@@ -81,7 +81,7 @@ In this project, I converted the code (which was originally in Java) to JavaScri
     A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a sample of my code:
   
   ```Java
-   void roll(){ // ur code here
+   void roll(){ 
   m = (int)(Math.random()*6)+1;
   }
   void show()  {
