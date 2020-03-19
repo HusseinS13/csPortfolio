@@ -105,7 +105,7 @@ In this project, I converted the code (which was originally in Java) to JavaScri
     
    </details>
     
-
+<details>
   <summary>Chemotaxis</summary>
   
   A source of pride in the development of this code was being able to successfully create bacteria objects that followed the mouse when clicked. This was a struggle at first, but through some collaboration I was able to figure out the process. I ended up creating a boolean variable called followMouse. If this variable was true and the x position of the bacteria was greater than the x position of the mouse, then the bacteria would move in a random path towards the mouse. This is thought process that is displayed throughout my code below:
