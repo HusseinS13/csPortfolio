@@ -1,4 +1,4 @@
-# Shaza Hussein's 'Advanced Computer Science' Portfolio
+# Shaza Hussein's 'Advanced Computer Science' Portfolio (High School)
 <details>
   <summary>Final Project</summary>
   
