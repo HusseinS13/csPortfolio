@@ -2,7 +2,7 @@
 <details>
   <summary>Final Project</summary>
   
-  In this project, I employed the Binary Search Tree data structures in order to create a fun game to help fellow students decide what they should invent this summer based off of one of my favorite childhood shoes, Phineas and Ferb. Throughout this project, I consolidated my ability to build and implements trees. The tree is traversed based on user input to questions until a leaf of 'invention' is reached. I challenge I encountered when creating this project was figuring out how to convert the tree into a usable interface. To solve this problem, I first problem solved on my own and then consulted with classmates on how to effeciently convert the tree into an interface. This interaction is what sparked the idea of implementing scenes based on booleans. The code for this is as follows:
+  In this project, I employed the Binary Search Tree data structures in order to create a fun game to help fellow students decide what they should invent this summer based off of one of my favorite childhood shoes, Phineas and Ferb. Throughout this project, I consolidated my ability to build and implements trees. The tree is traversed based on user input to questions until a leaf of 'invention' is reached. Here is a sample of my code:
   
   ```Java
  if (s.equals("Build an Animal Translator"))
@@ -33,7 +33,7 @@ This is the code that uses a boolean to check the value of the node. If the bool
 <details>
   <summary>Webpage</summary>
       
-A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Nothing in the creation of this webpage was particularly difficult, but I did learn how to make an image opaque when the mouse hovers over it. Here is a snippet of that code:
+A source of pride in the development of this project was being able to explore both HTML and CSS for the first time. I learned how to manipulate both images and texts within these languages. Here is a sample of my code:
 
     <div class="w3-container">
         <img src="group.jpg" id="cent" class="w3-opacity w3-hover-opacity-off" alt="Norway" style="width:50%">
@@ -45,7 +45,7 @@ A source of pride in the development of this project was being able to explore b
       <details>
   <summary>AutoZone Lighting in Java </summary>
   
-A source of pride in the development of this project was being able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
+In the development of this project I was able to revisit the mousePressed() method and utilize a lot of randomly generated variables. I created the random lightning strikes by creating a while loop that randomly generated ints for the x and y variables. A challenge that I encountered, but later figured out, was how to randomly generate a background color each time the mouse was pressed. Here is the sample of my code that randomly generated ints:
   
   ```Java
 void draw() {
@@ -71,14 +71,14 @@ void draw() {
 <details>
   <summary>AutoZone Lightning in JavaScript</summary>
   
-A source of pride in the development of this code, was being able to explore JavaScript for the first time. I learned about some of the similarities and differences between Java and JavaScript. I was able to rewrite parts of my code so that it would have the same functionality as the Java version. Through exploration, I learned how to create a random background color that is constantly changing, butI struggled to make the colors change with the mousePressed() method.
+In this project, I converted the code (which was originally in Java) to JavaScript. I learned about some of the similarities and differences between Java and JavaScript. I was able to rewrite parts of my code so that it would have the same functionality as the Java version.
   </details>
 
 
 <details>
   <summary>Dice Roll </summary>
   
-    A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a snippet of that code:
+    A source of pride in the development of this code was being able to create all of the Dice objects and have them each display a different number everytime the mouse was pressed. A challenge that I encountered when writing this code was being able to randomly generate a different type of die for each object. I solved this issue by creating a roll() method that randomly generated an int from 1-6. This int was then used to create a die with the corresponding value. Here is a sample of my code:
   
   ```Java
    void roll(){ // ur code here
@@ -105,12 +105,7 @@ A source of pride in the development of this code, was being able to explore Jav
     
    </details>
     
-<details>
-  <summary>Computer Science at MIT </summary>
-  https://docs.google.com/presentation/d/e/2PACX-1vSr-_JrrET3n5xBaLSEZix7rZ2E2e36VktTxQe9m339OE6w0e5tl992_AbKmIOQKuY9DkCQBhBwAzbo/pub?start=true&loop=true&delayms=10000)
-  </details>
-  
-<details> 
+
   <summary>Chemotaxis</summary>
   
   A source of pride in the development of this code was being able to successfully create bacteria objects that followed the mouse when clicked. This was a struggle at first, but through some collaboration I was able to figure out the process. I ended up creating a boolean variable called followMouse. If this variable was true and the x position of the bacteria was greater than the x position of the mouse, then the bacteria would move in a random path towards the mouse. This is thought process that is displayed throughout my code below:
